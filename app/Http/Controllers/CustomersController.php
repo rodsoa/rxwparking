@@ -16,7 +16,9 @@ class CustomersController extends Controller
     }
 
     // GET customers/create
-    public function create() {}
+    public function create() {
+        return view("customers.create");
+    }
 
     // POST customers/
     public function store() {}
